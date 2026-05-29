@@ -40,7 +40,7 @@ const TEMPLES = [
     name: 'Kamakhya Temple',
     location: 'Nilachal Hill, Guwahati',
     importance: 'Shakti Peetha',
-    img: '/src/images/kamakhya-temple-dispur-assam-2-attr-hero.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900',
+    img: './images/kamakhya-temple-dispur-assam-2-attr-hero.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900',
     desc: 'One of the 51 Shakti Peethas, Kamakhya Temple is dedicated to Goddess Kamakhya. Perched atop Nilachal Hill, it is a major pilgrimage site and is famous for the annual Ambubachi Mela which draws thousands of devotees and tantric practitioners.',
     fullDesc: 'Kamakhya Temple is one of the oldest of the 51 Shakti Peethas and is dedicated to the Mother Goddess Kamakhya. Located on the Nilachal Hill in western Guwahati, this temple is a major pilgrimage destination for Hindus especially Shaivas, Shaktas and Tantrics. The temple is famous for the annual Ambubachi Mela, a fertility festival that attracts lakhs of devotees from across India and abroad. The sanctum sanctorum houses a natural cleft in the rock symbolizing the yoni of the goddess, which is worshipped. The present temple was rebuilt in the 17th century after it was demolished.',
     built: '8th–17th Century',
@@ -51,7 +51,7 @@ const TEMPLES = [
     name: 'Umananda Temple',
     location: 'Peacock Island, Brahmaputra River, Guwahati',
     importance: 'River Island Shiva Temple',
-    img: '/src/images/Umananda-temple-assam.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900',
+    img: './images/Umananda-temple-assam.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900',
     desc: 'Located on Peacock Island (Umananda Island) in the middle of the mighty Brahmaputra River, this Lord Shiva temple is one of the smallest river islands in the world. A unique boat journey leads to this divine abode of Lord Shiva.',
     fullDesc: 'Umananda Temple is situated on Umananda Island, also known as Peacock Island, in the middle of the Brahmaputra River in Guwahati. It is dedicated to Lord Shiva. According to Hindu legend, Lord Shiva gave this island to Goddess Parvati (Uma) as a gift of love. The temple was built in 1594 by Ahom King Gadadhar Singha. It was destroyed by an earthquake in 1897 and later rebuilt. Devotees reach the island via a short ferry ride from Guwahati, making it a scenic spiritual journey.',
     built: '1594 AD (rebuilt)',
@@ -185,7 +185,7 @@ const PLACES = [
     name: 'Sivasagar — Ahom Kingdom',
     tag: 'Historical Heritage City',
     desc: 'The ancient capital of the Ahom Kingdom, Sivasagar is dotted with magnificent temples, royal tanks, and ruins of the great Ahom civilization.',
-    img: '/src/images/Rang-Ghar-in-Sibsagar-Assam.jpg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900',
+    img: './images/Rang-Ghar-in-Sibsagar-Assam.jpg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900',
     large: false,
   },
   {
@@ -226,7 +226,7 @@ const CULTURE_TABS = [
     id: 'food',
     label: 'Assamese Cuisine',
     icon: 'fa-solid fa-utensils',
-    img: '/src/images/assamese-doi-sira.jpg?auto=compress&cs=tinysrgb&fit=crop&h=700&w=900',
+    img: './images/assamese-doi-sira.jpg?auto=compress&cs=tinysrgb&fit=crop&h=700&w=900',
     title: 'Flavors of the Brahmaputra Valley',
     desc: 'Assamese cuisine is simple, wholesome and uniquely flavorful, with rice as the staple food. The cuisine makes extensive use of fresh ingredients, mustard oil, bamboo shoots, herbs and a wide variety of fish from the Brahmaputra.',
     desc2: 'Iconic Assamese dishes include Masor Tenga (tangy fish curry), Khar (an alkaline dish made with raw papaya), Duck Meat Curry, Pitha (rice cakes), and the beloved Assam Tea. The cuisine reflects the biodiversity of the region and its deep connection to nature.',
@@ -241,7 +241,7 @@ const CULTURE_TABS = [
     id: 'dress',
     label: 'Traditional Dress',
     icon: 'fa-solid fa-shirt',
-    img: '/src/images/assamese-traditional-dress.jpg?auto=compress&cs=tinysrgb&fit=crop&h=700&w=900',
+    img: './images/assamese-traditional-dress.jpg?auto=compress&cs=tinysrgb&fit=crop&h=700&w=900',
     title: 'The Elegance of Assamese Weaving',
     desc: 'The traditional dress of Assamese women is the Mekhela Chador — a two-piece draped garment woven with exquisite patterns in silk. Assam is famous for its Muga silk (the only natural golden silk in the world), Pat silk, and Eri silk.',
     desc2: 'Assamese men traditionally wear the Dhoti and Gamosa — the Gamosa being a white cotton towel with red border that is the most recognizable symbol of Assamese identity and pride. The handloom industry of Assam is one of the largest in India, with unique weaving traditions in every district.',
@@ -256,7 +256,7 @@ const CULTURE_TABS = [
     id: 'wildlife',
     label: 'Wildlife & Nature',
     icon: 'fa-solid fa-paw',
-    img: '/src/images/assam-rhino-image.jpg?auto=compress&cs=tinysrgb&fit=crop&h=700&w=900',
+    img: './images/assam-rhino-image.jpg?auto=compress&cs=tinysrgb&fit=crop&h=700&w=900',
     title: 'A Paradise for Wildlife Lovers',
     desc: 'Assam is endowed with extraordinary biodiversity. The state has 5 national parks and 20 wildlife sanctuaries. The mighty Brahmaputra river and its wetlands create unique ecosystems supporting rare species found nowhere else on Earth.',
     desc2: 'From the one-horned rhinoceros to the Bengal tiger, Asian elephant, golden langur, pygmy hog, Gangetic river dolphin and the hoolock gibbon — Assam\'s wildlife is spectacular. Kaziranga, Manas, Orang and Nameri national parks are internationally acclaimed destinations.',
@@ -277,7 +277,7 @@ const GALLERY_IMAGES = [
   { img: 'https://images.pexels.com/photos/32262495/pexels-photo-32262495.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=560', alt: 'Tea gardens rolling hills' },
   { img: 'https://www.pugdundeesafaris.com/blog/wp-content/uploads/2025/07/zones-in-kaziranga-national-park-scaled.webp?auto=compress&cs=tinysrgb&fit=crop&h=400&w=560', alt: 'Elephant in Kaziranga' },
   { img: 'https://images.pexels.com/photos/6872284/pexels-photo-6872284.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=560', alt: 'River island aerial' },
-  { img: '/src/images/assamese-doi-sira.jpg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=560', alt: 'Assamese Cuisine' },
+  { img: './images/assamese-doi-sira.jpg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=560', alt: 'Assamese Cuisine' },
 ];
 
 /* ============================================================
@@ -998,7 +998,7 @@ function Contact() {
 
 		<h2>Bikash Pathak</h2>
     <img
-        src="/src/images/bikash-pathak.jpg"
+        src="./images/bikash-pathak.jpg"
         alt="Admin"
 	  style={{
     borderRadius: "50%",
